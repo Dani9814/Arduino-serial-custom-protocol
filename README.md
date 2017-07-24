@@ -11,7 +11,14 @@ The structure is:
 
 Number of bytes transmited : 7 bytes.
 
+
 Notes:
+
+
 LSB:Less significant byte.
+
+
 MSB: Medium signficant byte.
-Checksum: It is the LSB of linear and angular velocity sum. LSB(Linear velocity + Angular velocity) 
+
+
+Checksum: It is the LSB of linear and angular velocity sum. LSB(Linear velocity + Angular velocity).
