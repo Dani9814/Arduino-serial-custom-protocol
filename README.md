@@ -4,10 +4,10 @@ This protocol allows to comunicate to arduino two data: linear velocity and angu
 
 The structure is:
 
- Start	                 Number of package		                 Linear velocity		      Angular velocity		     Checksum
+    Start      Number of package               Linear velocity     Angular velocity     Checksum
  
 	
-	255    1                            LSB | MSB          LSB | MSB            LSB
+	 255              1                            LSB | MSB          LSB | MSB            LSB
 
 Number of bytes transmited : 7 bytes.
 
